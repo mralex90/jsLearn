@@ -1,0 +1,8 @@
+.defalt-input{
+    border: green 2px solid;
+    padding: 5px;
+}
+
+.error-input{
+    border-color: red;
+}
