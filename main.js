@@ -1,4 +1,6 @@
 var firstNameId = 'first-name';
+// = это оператор присваивания ... то есть то что слева 
+//(переменная), ей присваивается значение справа.
 var firstNameEl = document.getElementById(firstNameId);
 var lastNameId = 'last-name';
 var lastNameEl = document.getElementById(lastNameId);
@@ -20,14 +22,9 @@ function alertValue() {
     console.log(addressEl.value);
 }
 
-
-
 firstNameEl.value = 'Andrey';
 
-
-
 alertValue();
-
 
 lastNameEl.className = 'last-name-input defalt-input error-input';
 
